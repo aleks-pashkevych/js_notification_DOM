@@ -9,7 +9,6 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   head.textContent = title;
   head.className = 'title';
   descriptionEl.textContent = description;
-  descriptionEl.className = type;
   message.style.top = `${posTop}px`;
   message.style.right = `${posRight}px`;
 
